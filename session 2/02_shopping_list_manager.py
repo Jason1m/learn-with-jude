@@ -23,7 +23,7 @@ def view_list():
     """Display the current shopping list"""
     print("\n🛍️  YOUR SHOPPING LIST:")
     if not shopping_list:  # If list is empty
-        print("   Your list is empty! Time to add some items.")
+        print("   Your list is empty! Time to add some items."),
     else:
         for i, item in enumerate(shopping_list, 1):  # Start counting from 1
             print(f"   {i}. {item}")
